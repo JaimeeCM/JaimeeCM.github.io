@@ -1,0 +1,516 @@
+:root{ 
+    --verde:rgb(9, 229, 57);
+    --fondo:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    padding: 30px 0;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #logotipo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--verde);
+    font-size: 70px;
+}
+
+header nav a{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo{
+    color: var(--verde);
+}
+
+/**
+*  Aquí empiezo a editar la página principal del inicio
+**/
+
+.pagina-inicio{
+    font-size: 25px;
+    min-height: 10.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50) 100%), url(../Imagenes/establecimiento.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pagina-inicio .contenedor{
+    margin: 20% auto;
+    margin-bottom: 6.25em;
+}
+
+.pagina-inicio .titulo{
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+    color: var(--verde);
+}
+
+.pagina-inicio .descripcion{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+    color: var(--verde);
+}
+
+.pagina-inicio .boton{
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    color: #fff;
+    padding: 0.93em 1.87em;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.pagina-inicio .boton:hover{
+    background: #fff;
+    color: #000;
+}
+
+.pagina-inicio .boton i{
+   margin-right: 1.25em; 
+}
+
+.contenedor-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: var(--verde);
+    margin-top: 40px;
+}
+
+.menu {
+    width: 70px ;
+    height: 30px;
+    background: var(--verde);
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 20px;
+    color: var(--fondo);
+    text-align: center;
+    transition: 0.7s;
+}
+
+.checkbox:checked ~ .menu {
+    left: 20%;
+}
+
+.checkbox:hover ~ .menu{
+    width: 90px;
+    height: 50px;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-lateral{
+    width: 20%;
+    height: 100%;
+    background: var(--verde);
+    position: fixed;
+    top: 0;
+    left: -20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.checkbox:checked ~ .menu-lateral{
+    left: 0;
+    position: fixed;
+}
+
+.checkbox:hover ~ .menu{
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.checkbox {
+    display: none;
+}
+
+ul a{
+    color: var(--fondo);
+    text-decoration: none;
+}
+
+.menu .menu-lateral ul a:hover{
+    font-size: 70px;
+    transition: 0.3s;
+}
+
+li {
+    list-style: none;
+    font-size: 40px ;
+    text-align: center;
+    padding: 10px; 
+    font-family:'Bebas Neue', cursive ;
+}
+
+
+.google {
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    align-items: center;
+}
+
+.google .localizacion{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--verde);
+    font-size: 30px;
+    margin-left: 20%;
+    align-items: center;
+}
+
+.google .mapa{
+    display: block;
+    margin-left: 20%;
+    align-items: center;
+}
+
+footer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer #frase-footer{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--fondo);
+    font-size: 50px;
+}
+.contenedor-footer footer .redes-sociales{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contenedor-footer footer .redes-sociales .iconos{
+    font-size: 20px;
+    margin: 20px;
+    background-color: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+
+footer .redes-sociales .fa-facebook-square:hover{
+    background: #41579A;
+    color: #fff;
+    transition: 0.5s ease all;
+}
+
+footer .redes-sociales .fa-twitter-square:hover{
+    background: rgb(0, 153, 255);
+    color: #fff;
+    transition: 0.5s ease all;
+}
+
+footer .redes-sociales .fa-instagram:hover{
+    background:linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: #fff;
+    transition: 0.5s ease all;
+}
+
+.contenedor-footer footer hr{
+    margin-top: 20px;
+    height: 2px;
+    color: var(--fondo);
+}
+
+.contenedor-footer h4{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--fondo);
+    font-weight: 500px;
+}
+
+
+/**
+*  media queries (responsive)
+**/
+
+@media screen and (max-width: 800px){
+    header .logotipo{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    header .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .google .contenedor .localizacion .mapa{
+        text-align: center;
+    }
+
+    .pagina-inicio{
+        font-size: 14px;
+    }
+
+    
+
+    .pagina-inicio .descripcion{
+        max-width: 100%;
+    }
+}
+
+/**
+*Aquí empiezo con el carousel
+**/
+
+.slider #TituloInfo {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--verde);
+    font-size: 30px;
+}
+
+.slider{
+    width: 45%;
+    height: 60%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.slider .flecha-izquierda,.flecha-derecha{
+    position: absolute;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(40% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: 0.2s ease all;
+}
+
+.slider .flecha-izquierda:hover , .flecha-derecha:hover{
+    background: rgba(0, 0, 0, 0.9);
+}
+.slider .flecha-izquierda{
+    left: 0;
+}
+
+.slider .flecha-derecha{
+    right: 0;
+}
+
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: cambio 20s infinite;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.slider img{
+    width: 100%;
+    height: 325px;
+}
+
+.slider img.hover{
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+@keyframes cambio{
+    0%{
+        margin-left: 0%;
+    }
+    20%{
+        margin-left: 0%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: 0%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+
+}
+
+/**
+* Estilos de la página de clases
+**/
+.videos-clases1{
+    padding: 20px 0;
+}
+
+.videos-clases1 h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--verde);
+    font-size: 50px;
+}
+
+.videos-clases1 #videos1{
+    margin-left: 0;
+    display: list-item;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+/**
+* Estilos de HTML horario
+**/
+.horario .foto-horario{
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    display: block;
+}
+
+.horario h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--verde);
+    font-size: 50px;
+}
+
+/**
+* Estilos del formulario
+**/
+
+.formulario .form .formulario-header .formulario-titulo{
+    background-size: cover;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--fondo);
+}
+
+.formulario .form {
+    background: rgba(255, 102, 0, 0.774);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario .form .formulario-header .formulario-titulo{
+    color: var(--fondo);
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.formulario .form .form-label{
+    display: block;
+    color: var(--fondo);
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+}
+
+.formulario .form .form-input , .text-area{
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--fondo);
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.formulario .form .text-area{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.formulario .form .submit{
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    outline: none;
+    background:var(--fondo) ;
+    font-size: 20px;
+    border: none;
+    color: #E9712A;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.formulario .form .submit:hover{
+    background: #464646d7;
+}

@@ -1,0 +1,77 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit Vibe</title>
+    <link rel="stylesheet" href="CSS/EstiloProyecto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 id="logotipo">Fit Vibe</h2>
+            <audio controls autoplay> <source  src="Audio/regard-raye-secrets-lyric-video.mp3" type="audio/mp3"></audio>
+    
+            <nav>
+                <a href="index.html" class="activo">Inicio</a>
+                <a href="HTML/Clases.html">Clases</a>
+                <a href="HTML/Horario.html">Horarios</a>
+                <a href="HTML/Contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="pagina-inicio">
+            <div class="contenedor">
+                <h3 class="titulo">Fit Vibe</h3>
+                <p class="descripcion">Bienvenid@ a la familia Fit Vibe!,gracias por visitar nuestra página web.Si tienes alguna pregunta por favor contactanos en la pestaña de "Contacto" o haciendo click sobre "Más información".</p>
+                <a href="HTML/Contacto.html"><button role="button" class="boton"><i class="fas fa-info-circle"></i></i>Más información</button></a>
+            </div>
+        </div>
+        
+        <input type="checkbox" class="checkbox" id="check">
+        <label class="menu" for="check">|||</label>
+        <div class="menu-lateral">
+            <ul>
+                <a href=""><li>Inicio</li></a>
+                <a href="HTML/Clases.html"><li>Clases</li></a>
+                <a href="HTML/Horario.html"><li>Horarios</li></a>
+                <a href="HTML/Contacto.html"><li>Contacto</li></a>
+            </ul>
+        </div>
+
+         <div class="slider contenedor">
+            <h3 id="TituloInfo">Información:</h3>
+            <button role="button" id="flecha-izquierda" class="flecha-izquierda" onclick="siguiente()"><i class="fas fa-angle-left"></i></button>
+                <ul id="imagenes-slider">
+                    <li><a href="HTML/Clases.html"><img src="Imagenes/Fitball.jpg" alt="" id="imagen"></a></li>
+                    <li><a href="HTML/Horario.html"><img src="Imagenes/Horario.jpg" alt="" id="imagen"></a></li>
+                    <li><a href="HTML/Contacto.html"><img src="Imagenes/Contacto.jpg" alt="" id="imagen"></a></li>
+                </ul>
+            <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></i></button>
+        </div>
+    
+        <div class="google contenedor">
+            <h1 class="localizacion">Localización</h1>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805196.5063636107!2d144.4927279334474!3d-37.97015436674686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20Victoria%2C%20Australia!5e0!3m2!1ses!2ses!4v1590574155481!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>     
+                
+    </main>
+    <div class="contenedor-footer">
+        <footer>
+            <p id="frase-footer">Siguenos en nuestras redes sociales!!</p>
+            <div class="redes-sociales">
+                <a target="_blanck" href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram iconos"></i></a>
+                <a target="_blanck" href="https://es-es.facebook.com/"><i class="fab fa-facebook-square iconos"></i></a>
+                <a target="_blanck" href="https://twitter.com/?lang=ES"><i class="fab fa-twitter-square iconos"></i></a>
+            </div>
+            <hr color="black">
+            <h4>E-mail : fitvibe@gmail.com</h4>
+            <h4>Numero de contacto : 913-232-323</h4>
+            <a href="HTML/Contacto.html"><h4>CONTACTANOS</h4></a>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="JavaScript/JavaScript.js"></script>
+    
+</body>
+</html>
