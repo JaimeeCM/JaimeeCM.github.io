@@ -1,0 +1,10 @@
+<!ELEMENT tarifas (tarifa+)>
+<!ELEMENT tarifa (tipo, duracion, informacion, activacion?, precio)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT informacion (#PCDATA)>
+<!ELEMENT activacion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+
+

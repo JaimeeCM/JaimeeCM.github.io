@@ -14,7 +14,9 @@
                 <a href="../index.html">Inicio</a>
                 <a href="../HTML/Clases.html">Clases</a>
                 <a href="../HTML/Horario.html">Horarios</a>
+                <a href="../HTML/Tarifas.html">Tarifas</a>
                 <a href="../HTML/Contacto.html" class="activo">Contacto</a>
+                <a href="../HTML/Login.html">Login</a>
             </nav>
         </div>
     </header>
@@ -33,21 +35,24 @@
             
 
             <label for="correo" class="form-label">Correo electronico:</label>
-            <input type="email" id="correo" class="form-input" placeholder="Escriba su correo electronico">
+            <input type="email" id="correo" class="form-input" required placeholder="Escriba su correo electronico">
             
 
             <label for="mensaje" class="form-label">Mensaje:</label>
             <textarea id="mensaje" class="text-area" placeholder="Escribir consulta"></textarea>
             
 
-            <input type="submit" class="submit" value="Enviar consulta" onclick="Mensaje()">
+            <input type="button" class="button" value="Enviar consulta" onclick="Mensaje();mostrarInfo()">
 
 
         </form>
     </div>
+
+    <div id="mostrarInfo"></div>
+
     <div class="contenedor-footer">
         <footer>
-            <p id="frase-footer">Siguenos en nuestras redes sociales!!</p>
+            <p id="frase-footer">¡¡Siguenos en nuestras redes sociales!!</p>
             <div class="redes-sociales">
                 <a target="_blanck" href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram iconos"></i></a>
                 <a target="_blanck" href="https://es-es.facebook.com/"><i class="fab fa-facebook-square iconos"></i></a>

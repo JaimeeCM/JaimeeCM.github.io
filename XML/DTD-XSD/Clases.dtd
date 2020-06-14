@@ -1,0 +1,8 @@
+<!ELEMENT clases (clase+)>
+<!ELEMENT clase (nombre, descripcion, material, duracion, profesor, aula)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT material (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT aula (#PCDATA)>

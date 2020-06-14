@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tarifas SYSTEM "../DTD-XSD/Tarifas.dtd">
+<?xml-stylesheet type="html/xsl" href="../XSL/Tarifas.xsl"?>
+
+<tarifas>
+      <tarifa>
+        <tipo>Mensual</tipo>
+        <duracion>1 mes</duracion>
+        <informacion>Al darte de alta la primera vez, tendrás que abonar una pulsera electrónica de
+        acceso valorada en 19,90€. Cuídala, te valdrá para siempre que vengas y con ella tendrás acceso a otros centros
+        Fit Vibe</informacion>
+        <activacion>39,80 euros</activacion>
+        <precio>31,90 euros</precio>
+     </tarifa>
+     <tarifa>
+        <tipo>Trimestral</tipo>
+        <duracion>3 meses</duracion>
+        <informacion>Al darte de alta la primera vez, tendrás que abonar una pulsera electrónica de
+        acceso valorada en 19,90€. Cuídala, te valdrá para siempre que vengas y con ella tendrás acceso a otros centros
+        Fit Vibe</informacion>
+        <activacion>19,90 euros</activacion>
+        <precio>81 euros</precio>
+     </tarifa>
+     <tarifa>
+        <tipo>Anual</tipo>
+        <duracion>1 año</duracion>
+        <informacion>Al darte de alta la primera vez, tendrás que abonar una pulsera electrónica de
+        acceso valorada en 19,90€. Cuídala, te valdrá para siempre que vengas y con ella tendrás acceso a otros centros
+        Fit Vibe</informacion>
+        <activacion>Sin activacion</activacion>
+        <precio>288 euros</precio>
+     </tarifa>
+</tarifas>

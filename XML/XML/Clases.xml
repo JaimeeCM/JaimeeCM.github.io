@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clases SYSTEM "../DTD-XSD/Clases.dtd">
+
+<clases>
+   <clase>
+       <nombre>Fitball</nombre>
+        <descripcion>Originalmente conocida como Swiss Ball o Pezzi Ball, Fitball es una pelota
+        especialmente diseñada para el entrenamiento físico, pero también para fisioterapia, gimnasia, 
+        pilates, rehabilitación e incluso como silla de escritorio en nuestras oficinas.</descripcion>
+        <material>discos,bandas elasticas,bosu,fitball</material>
+        <duracion>45 minutos</duracion>
+        <profesor>Esther Martínez</profesor>
+        <aula>5</aula>
+    </clase>
+    <clase>
+       <nombre>Ciclo</nombre>
+        <descripcion>Clase especializada en los diferentes ritmos que se puede llegar a vivir
+        en una etapa de una carrera de ciclismo, la cual consiste en cambios de ritmo y de esfuerzo 
+        adecuandose al ritmo de una carrera</descripcion>
+       <material>bicicleta estática</material>
+       <duracion>45-90 minutos</duracion>
+       <profesor>Javier Gutierrez</profesor>
+       <aula>2</aula>
+    </clase>
+    <clase>
+       <nombre>Gluteo-boom</nombre>
+        <descripcion>Ejercicio el cual consiste en la elevacion tanto de peso como de tu propio cuerpo utilizando unicamente 
+        la parte de los gluteos a una frecuencia muy alta de series y repeticiones</descripcion>
+       <material>Cajón de salto,discos,bandas elásticas y pesas rusas</material>
+       <duracion>45 minutos</duracion>
+       <profesor>Rosa Melano</profesor>
+       <aula>1</aula>
+    </clase>
+    <clase>
+       <nombre>Body-jump</nombre>
+        <descripcion>Se trata de un método de entrenamiento en el que se utiliza una pequeña cama elástica o mini trampolín, sobre el que se hacen los ejercicios que nos i
+        ndica el instructor. Sobra decir que entrenar sobre un trampolín es algo increíblemente divertido, y cualquier persona puede participar en estas clases, que duran unos 45 
+        minutos y son realmente intensas</descripcion>
+        <material>cama elastica,balón medicinal,chaleco lastrado</material>
+        <duracion>45 minutos</duracion>
+        <profesor>Sergio Peinado</profesor>
+        <aula>4</aula>
+    </clase>
+    <clase>
+       <nombre>Dumbells</nombre>
+       <descripcion>Los entrenamientos de crossfit son algo más que levantar pesos. Son, además de fuerza, flexibilidad, resistencia y potencia. En Crossfit, a no ser que vayas a
+        entrenar por tu cuenta, los entrenamientos son cada día diferentes para que el cuerpo no se acostumbre a trabajar siempre los mismos músculos y para que trabajes todas
+        las partes del cuerpo por igual.</descripcion>
+        <material>Pesas rusas,discos,barras,bandas elásticas</material>
+        <duracion>30 minutos</duracion>
+        <profesor>Emmanuel Linares</profesor>
+        <aula>3</aula>
+    </clase>
+</clases>
