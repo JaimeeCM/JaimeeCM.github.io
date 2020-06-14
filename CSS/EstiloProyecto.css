@@ -556,10 +556,9 @@ footer .redes-sociales .fa-instagram:hover{
     height: 500px;
     margin: auto;
     border-radius: 10px;
-    background-color: var(--verde);
+    background:linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
     font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
+    font-size: 27px;
     border: 5px solid black;
     border-collapse: collapse;
-
 }
