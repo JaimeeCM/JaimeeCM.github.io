@@ -66,10 +66,16 @@ function Login(){
     var usuario=document.getElementById('usuario').value;
     var contraseña=document.getElementById('contraseña').value;
 
-    if (usuario,contraseña !=""){
-        alert("Gracias por hacer login!!");
+    if (usuario == ""){
+        document.getElementById('usuario').focus();
     }else{
-        alert("Olvidaste rellenar un campo");
+        if (contraseña == ""){
+            document.getElementById('contraseña').focus();
+        }else{
+            document.getElementById('usuario').value = "";
+            document.getElementById('contraseña').value = "";
+            document.getElementById('usuario').focus();
+        }
     }
 }
 
